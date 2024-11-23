@@ -20,7 +20,7 @@ const TaskList = ({ tasks, deleteTask, editTask }) => {
       <tbody>
         {tasks.length === 0 ? (
           <tr>
-            <td colSpan="5" style={{ textAlign: "center" }}>
+            <td colSpan="4" style={{ textAlign: "center" }}>
               No tasks to display
             </td>
           </tr>
